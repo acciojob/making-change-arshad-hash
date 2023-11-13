@@ -11,22 +11,22 @@ const makeChange = (c) =>
 	while (c>0) {
 	if(c%25==0)
 		
-		{ c/25;
+		{c= c/25;
 			result.q++;}
 
 		else if(c%10==0)
 		{
-			c/10;
+			c=c/10;
 			result.d++;
 		}
 		else if(c%5==0)
 		{
-			c/5;
+			c=c/5;
 			result.n++;
 			
 		}
 		else{
-			c-1;
+			c=c-1;
 			result.d++;
 		}
 		
